@@ -1,0 +1,11 @@
+# Local verification artifacts; never publish uploaded HAR files or exports.
+/output/
+/.playwright-cli/
+/_site/
+*.har
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
