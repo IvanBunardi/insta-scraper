@@ -25,6 +25,8 @@ jobs:
         uses: actions/checkout@v6
       - name: Verify parser
         run: node tests/parser.cjs
+      - name: Verify monthly analytics
+        run: node tests/monthly.cjs
       - name: Prepare static site
         run: |
           mkdir -p _site
